@@ -1,11 +1,11 @@
 {
-  "domain": "quirker",
-  "name": "Valetudo Quirks",
+  "domain": "valetudo_extras",
+  "name": "Valetudo Extras",
   "documentation": "",
   "dependencies": [],
   "codeowners": [],
   "requirements": [],
-  "config_flow": false,
+  "config_flow": true,
   "iot_class": "local_polling",
   "version": "0.0.1"
 }

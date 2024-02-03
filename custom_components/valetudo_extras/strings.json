@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "[%key:common::config_flow::data::ip%]"
+        }
+      }
+    },
+    "error": {
+      "unreachable": "[%key:common::config_flow::error::cannot_connect%]"
+    },
+    "abort": {
+      "already_configured_device": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
