@@ -1,4 +1,4 @@
-"""Constants for the Abode Security System component."""
+"""Constants for the valetudo extras component."""
 import logging
 
 LOGGER = logging.getLogger(__package__)
